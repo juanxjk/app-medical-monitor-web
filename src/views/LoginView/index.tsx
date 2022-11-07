@@ -9,7 +9,7 @@ function LoginView() {
           <Link to="/">Go to dashboard</Link>
         </li>
         <li>
-          <Link to="/sign-in">Sign-in</Link>
+          <Link to="/register">Register now</Link>
         </li>
       </ul>
     </div>

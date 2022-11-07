@@ -8,7 +8,7 @@ import ErrorView from "./views/ErrorView";
 import LoginView from "./views/LoginView";
 import PatientsView from "./views/PatientsView";
 import PatientView from "./views/PatientsView/PatientView";
-import SignInView from "./views/SignInView";
+import RegisterView from "./views/RegisterView";
 import UsersView from "./views/UsersView";
 import UserView from "./views/UsersView/UserView";
 
@@ -74,9 +74,9 @@ const routes = [
     element: <LoginView />,
   },
   {
-    name: "sign-in",
-    path: "/sign-in",
-    element: <SignInView />,
+    name: "register",
+    path: "/register",
+    element: <RegisterView />,
   },
   {
     name: "404",
